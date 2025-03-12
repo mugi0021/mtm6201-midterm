@@ -127,10 +127,12 @@ nav ul li a {
 }
 .hero-info {
     position: absolute;
-    top: 100%;
-    left: 50px;
+    top: 40%;
+    left: auto;
     color: var(--primary-color);
     /* left: 16px; */
+    padding: 1rem;
+
     
     
 }
@@ -199,7 +201,7 @@ nav ul li a {
     height: auto;
 }
 
-.learn-more {
+.learn-more, .learn-more-2 {
     display: inline-block;
     margin-top: 1rem;
     color: var(--primary-color);
@@ -231,6 +233,12 @@ nav ul li a {
 }
 .learn-more-2 {
     background-color: #2c689f;
+    color: var(--primary-color);
+    border-radius: 20px;
+    text-decoration: none;
+    /* transition: transform 0.3s ease; */
+    /* padding: 0.1rem 0.9rem; */
+    /* margin-top: 5rem; */
 }
    
 
