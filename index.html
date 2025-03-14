@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The System</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
+    <!-- Header Section -->
     <header id="header" role="banner">
-        <h1 id="header-title" role="heading" aria-level="1">THE <span class="highlight">SYSTEM</span></h1>
+        <h1 id="header-title" role="heading">THE <span class="highlight">SYSTEM</span></h1>
+        <!-- Navigation Section -->
         <nav id="nav-links" role="navigation" aria-label="Main Navigation">
             <ul>
                 <li><a href="#" role="link" aria-label="Planets">Planets</a></li>
@@ -19,49 +24,54 @@
             </ul>
         </nav>
     </header>
-    <!-- New Section Below the Header -->
-    <section id="intro" role="region" aria-label="Introduction to Solar System">
-        <!-- Add the image inside the section -->
-        <img src="images/milky-way.jpg" alt="Solar System" id="intro-image">
-    
+    <!-- Introduction Section -->
+    <section id="intro" role="main image" aria-label="Introduction to Solar System">
+        <img src="images/milky-way.jpg" alt="The galaxy" id="intro-image">
+
         <div id="intro-text-container">
             <p id="intro-text">THE SYSTEM MAGAZINE</p>
             <h2 id="intro-heading">Welcome to the <span class="highlight-text">Solar System</span></h2>
             <p id="intro-description">Take a tour around the coolest stellar system around</p>
         </div>
     </section>
-
+    <!-- Planets Section -->
     <section id="planets-section" role="region" aria-label="Meet the Locals">
         <div id="meet-locals">
             <h3>Meet the Locals</h3>
         </div>
-    
+        <!-- Container for Planet Cards -->
         <div id="planets-container">
+            <!-- Sun Card -->
             <div class="planet">
                 <img src="images/sun.jpg" alt="Sun">
                 <p class="planet-name">The Sun</p>
                 <button class="learn-more-btn">Learn More</button>
             </div>
+            <!-- Mercury Card -->
             <div class="planet">
                 <img src="images/mercury.jpg" alt="Mercury">
                 <p class="planet-name">Mercury</p>
                 <button class="learn-more-btn">Learn More</button>
             </div>
+            <!-- Venus Card -->
             <div class="planet">
                 <img src="images/venus.jpg" alt="Venus">
                 <p class="planet-name">Venus</p>
                 <button class="learn-more-btn">Learn More</button>
             </div>
+            <!-- Earth Card -->
             <div class="planet">
-                <img src="images/earth.jpg" alt="Earth">
+                <img src="images/earth.jpg" alt="The Earth">
                 <p class="planet-name">Earth</p>
                 <button class="learn-more-btn">Learn More</button>
             </div>
+            <!-- Moon Card -->
             <div class="planet">
                 <img src="images/moon.jpg" alt="The Moon">
                 <p class="planet-name">The Moon</p>
                 <button class="learn-more-btn">Learn More</button>
             </div>
+            <!-- Mars Card -->
             <div class="planet">
                 <img src="images/mars.jpg" alt="Mars">
                 <p class="planet-name">Mars</p>
@@ -69,12 +79,13 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Footer Section -->
-<footer id="footer" role="contentinfo" aria-label="Footer">
-    <hr> <!-- Horizontal line -->
-    <p>&copy; 2024 - The System</p>
-</footer>
+    <footer id="footer" role="contentinfo" aria-label="Footer">
+        <hr> <!-- Horizontal line -->
+        <p>&copy; 2024 - The System</p>
+    </footer>
 
 </body>
+
 </html>
